@@ -1,0 +1,57 @@
+
+App Thinning Size Report for All Variants of Runner
+
+Variant: Office Food-1886AB28-2551-4295-8627-A02B3B689BAA.ipa
+Supported variant descriptors: [device: iPad13,11, os-version: 14.0], [device: iPad5,4, os-version: 14.0], [device: iPad8,11, os-version: 13.0], [device: iPad5,2, os-version: 14.0], [device: iPad11,4, os-version: 13.0], [device: iPad8,7, os-version: 13.0], [device: iPad7,4, os-version: 14.0], [device: iPad8,11, os-version: 14.0], [device: MacFamily20,1, os-version: 14.0], [device: iPad6,4, os-version: 13.0], [device: iPad8,5, os-version: 13.0], [device: iPad7,5, os-version: 13.0], [device: iPad8,10, os-version: 14.0], [device: iPad7,1, os-version: 14.0], [device: iPad8,2, os-version: 13.0], [device: iPad8,1, os-version: 13.0], [device: iPad5,3, os-version: 13.0], [device: iPad8,10, os-version: 13.0], [device: iPad7,3, os-version: 14.0], [device: iPad6,12, os-version: 14.0], [device: iPad7,12, os-version: 14.0], [device: iPad7,3, os-version: 13.0], [device: iPad8,5, os-version: 14.0], [device: iPad5,3, os-version: 14.0], [device: iPad8,8, os-version: 13.0], [device: iPad7,2, os-version: 14.0], [device: iPad11,6, os-version: 14.0], [device: iPad6,3, os-version: 13.0], [device: iPad5,1, os-version: 13.0], [device: iPad5,2, os-version: 13.0], [device: iPad13,6, os-version: 14.0], [device: iPad6,3, os-version: 14.0], [device: iPad13,1, os-version: 14.0], [device: iPad13,4, os-version: 14.0], [device: iPad6,11, os-version: 14.0], [device: iPad6,11, os-version: 13.0], [device: iPad8,1, os-version: 14.0], [device: iPad8,12, os-version: 13.0], [device: iPad7,11, os-version: 13.0], [device: iPad8,3, os-version: 14.0], [device: iPad6,8, os-version: 14.0], [device: iPad11,2, os-version: 14.0], [device: iPad11,3, os-version: 13.0], [device: iPad11,1, os-version: 13.0], [device: iPad11,7, os-version: 14.0], [device: iPad13,10, os-version: 14.0], [device: iPad11,4, os-version: 14.0], [device: iPad13,7, os-version: 14.0], [device: iPad7,2, os-version: 13.0], [device: iPad11,2, os-version: 13.0], [device: iPad8,4, os-version: 14.0], [device: iPad8,4, os-version: 13.0], [device: iPad13,9, os-version: 14.0], [device: iPad8,12, os-version: 14.0], [device: iPad5,4, os-version: 13.0], [device: iPad6,12, os-version: 13.0], [device: iPad6,7, os-version: 14.0], [device: iPad7,11, os-version: 14.0], [device: iPad6,8, os-version: 13.0], [device: iPad8,3, os-version: 13.0], [device: iPad7,4, os-version: 13.0], [device: iPad11,3, os-version: 14.0], [device: iPad6,4, os-version: 14.0], [device: iPad11,1, os-version: 14.0], [device: iPad8,6, os-version: 13.0], [device: iPad5,1, os-version: 14.0], [device: iPad7,5, os-version: 14.0], [device: iPad6,7, os-version: 13.0], [device: iPad13,5, os-version: 14.0], [device: iPad8,6, os-version: 14.0], [device: iPad13,2, os-version: 14.0], [device: iPad8,9, os-version: 14.0], [device: iPad8,8, os-version: 14.0], [device: iPad7,6, os-version: 14.0], [device: iPad8,9, os-version: 13.0], [device: iPad7,12, os-version: 13.0], [device: iPad8,2, os-version: 14.0], [device: iPad7,6, os-version: 13.0], [device: iPad8,7, os-version: 14.0], [device: iPad7,1, os-version: 13.0], and [device: iPad13,8, os-version: 14.0]
+App + On Demand Resources size: 52.6 MB compressed, 125.1 MB uncompressed
+App size: 52.6 MB compressed, 125.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food-23F20E93-34E4-4DB3-AD99-63829E0A42A8.ipa
+Supported variant descriptors: [device: iPad11,1, os-version: 15.0], [device: iPad6,3, os-version: 15.0], [device: iPad14,1, os-version: 15.0], [device: iPad13,5, os-version: 15.0], [device: iPad13,6, os-version: 15.0], [device: iPad13,4, os-version: 15.0], [device: iPad6,12, os-version: 15.0], [device: iPad6,7, os-version: 15.0], [device: iPad12,2, os-version: 15.0], [device: iPad13,9, os-version: 15.0], [device: iPad8,9, os-version: 15.0], [device: iPad11,4, os-version: 15.0], [device: iPad11,2, os-version: 15.0], [device: iPad8,12, os-version: 15.0], [device: iPad13,2, os-version: 15.0], [device: iPad7,1, os-version: 15.0], [device: iPad13,8, os-version: 15.0], [device: iPad13,11, os-version: 15.0], [device: iPad7,6, os-version: 15.0], [device: iPad7,12, os-version: 15.0], [device: iPad11,6, os-version: 15.0], [device: MacFamily20,1, os-version: 15.0], [device: iPad7,4, os-version: 15.0], [device: iPad7,11, os-version: 15.0], [device: iPad8,7, os-version: 15.0], [device: iPad14,2, os-version: 15.0], [device: iPad5,1, os-version: 15.0], [device: iPad7,2, os-version: 15.0], [device: iPad8,5, os-version: 15.0], [device: iPad8,1, os-version: 15.0], [device: iPad13,10, os-version: 15.0], [device: iPad8,8, os-version: 15.0], [device: iPad6,4, os-version: 15.0], [device: iPad7,5, os-version: 15.0], [device: iPad6,8, os-version: 15.0], [device: iPad8,10, os-version: 15.0], [device: iPad12,1, os-version: 15.0], [device: iPad13,1, os-version: 15.0], [device: iPad11,3, os-version: 15.0], [device: iPad8,2, os-version: 15.0], [device: iPad11,7, os-version: 15.0], [device: iPad5,2, os-version: 15.0], [device: iPad5,3, os-version: 15.0], [device: iPad13,7, os-version: 15.0], [device: iPad8,4, os-version: 15.0], [device: iPad5,4, os-version: 15.0], [device: iPad8,11, os-version: 15.0], [device: iPad7,3, os-version: 15.0], [device: iPad8,6, os-version: 15.0], [device: iPad6,11, os-version: 15.0], and [device: iPad8,3, os-version: 15.0]
+App + On Demand Resources size: 52.6 MB compressed, 125.1 MB uncompressed
+App size: 52.6 MB compressed, 125.1 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food-5D6486CF-FA82-4BD5-A85E-95DC25995DC9.ipa
+Supported variant descriptors: [device: iPad4,9, os-version: 12.0], [device: iPad4,2, os-version: 12.0], [device: iPad8,2, os-version: 12.0], [device: iPad8,1, os-version: 12.0], [device: iPad5,3, os-version: 12.0], [device: iPad6,12, os-version: 12.0], [device: iPad8,7, os-version: 12.0], [device: iPad8,8, os-version: 12.0], [device: iPad4,6, os-version: 12.0], [device: iPad4,4, os-version: 12.0], [device: iPad7,1, os-version: 12.0], [device: iPad6,4, os-version: 12.0], [device: iPad8,6, os-version: 12.0], [device: iPad7,3, os-version: 12.0], [device: iPad6,3, os-version: 12.0], [device: iPad7,5, os-version: 12.0], [device: iPad5,4, os-version: 12.0], [device: iPad5,2, os-version: 12.0], [device: iPad6,7, os-version: 12.0], [device: iPad4,7, os-version: 12.0], [device: iPad4,8, os-version: 12.0], [device: iPad5,1, os-version: 12.0], [device: iPad7,4, os-version: 12.0], [device: iPad4,5, os-version: 12.0], [device: iPad7,6, os-version: 12.0], [device: iPad4,3, os-version: 12.0], [device: iPad8,3, os-version: 12.0], [device: iPad8,4, os-version: 12.0], [device: iPad7,2, os-version: 12.0], [device: iPad4,1, os-version: 12.0], [device: iPad8,5, os-version: 12.0], [device: iPad6,8, os-version: 12.0], and [device: iPad6,11, os-version: 12.0]
+App + On Demand Resources size: 55.2 MB compressed, 133.3 MB uncompressed
+App size: 55.2 MB compressed, 133.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food-A68C9EDD-AB83-4494-8035-A27413F575A0.ipa
+Supported variant descriptors: [device: iPad2,6, os-version: 9.0], [device: iPad2,7, os-version: 9.0], [device: iPad2,2, os-version: 9.0], [device: iPad2,3, os-version: 9.0], [device: iPad2,1, os-version: 9.0], [device: iPad2,4, os-version: 9.0], and [device: iPad2,5, os-version: 9.0]
+App + On Demand Resources size: 56 MB compressed, 129.9 MB uncompressed
+App size: 56 MB compressed, 129.9 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food-CD853E4D-26BC-4B6B-8BF5-01A3BE78A4D8.ipa
+Supported variant descriptors: [device: iPad7,2, os-version: 12.2], [device: iPad4,5, os-version: 12.2], [device: iPad8,7, os-version: 12.2], [device: iPad8,8, os-version: 12.2], [device: iPad7,4, os-version: 12.2], [device: iPad4,9, os-version: 12.2], [device: iPad8,6, os-version: 12.2], [device: iPad11,1, os-version: 12.2], [device: iPad11,2, os-version: 12.2], [device: iPad4,2, os-version: 12.2], [device: iPad5,4, os-version: 12.2], [device: iPad6,8, os-version: 12.2], [device: iPad4,1, os-version: 12.2], [device: iPad7,1, os-version: 12.2], [device: iPad5,3, os-version: 12.2], [device: iPad7,5, os-version: 12.2], [device: iPad7,3, os-version: 12.2], [device: iPad8,2, os-version: 12.2], [device: iPad11,4, os-version: 12.2], [device: iPad11,3, os-version: 12.2], [device: iPad8,1, os-version: 12.2], [device: iPad6,11, os-version: 12.2], [device: iPad7,6, os-version: 12.2], [device: iPad6,4, os-version: 12.2], [device: iPad8,4, os-version: 12.2], [device: iPad4,3, os-version: 12.2], [device: iPad6,7, os-version: 12.2], [device: iPad4,8, os-version: 12.2], [device: iPad4,6, os-version: 12.2], [device: iPad6,12, os-version: 12.2], [device: iPad4,4, os-version: 12.2], [device: iPad6,3, os-version: 12.2], [device: iPad8,3, os-version: 12.2], [device: iPad5,1, os-version: 12.2], [device: iPad5,2, os-version: 12.2], [device: iPad4,7, os-version: 12.2], and [device: iPad8,5, os-version: 12.2]
+App + On Demand Resources size: 52.6 MB compressed, 125.2 MB uncompressed
+App size: 52.6 MB compressed, 125.2 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food-E47FED5F-B0EC-442C-9E1C-7A48AA7C3ECA.ipa
+Supported variant descriptors: [device: iPad3,4, os-version: 9.0], [device: iPad3,5, os-version: 9.0], [device: iPad3,1, os-version: 9.0], [device: iPad3,2, os-version: 9.0], [device: iPad3,6, os-version: 9.0], and [device: iPad3,3, os-version: 9.0]
+App + On Demand Resources size: 56 MB compressed, 130 MB uncompressed
+App size: 56 MB compressed, 130 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food-F506B974-F3CB-479F-BB2F-6CF8E97BBBFF.ipa
+Supported variant descriptors: [device: iPad7,2, os-version: 10.0], [device: iPad7,6, os-version: 11.0], [device: iPad7,3, os-version: 10.0], [device: iPad4,8, os-version: 9.0], [device: iPad4,4, os-version: 9.0], [device: iPad5,3, os-version: 9.0], [device: iPad6,4, os-version: 9.0], [device: iPad7,5, os-version: 11.0], [device: iPad4,9, os-version: 9.0], [device: iPad5,1, os-version: 9.0], [device: iPad4,6, os-version: 9.0], [device: iPad6,7, os-version: 9.0], [device: iPad6,3, os-version: 9.0], [device: iPad5,2, os-version: 9.0], [device: iPad6,8, os-version: 9.0], [device: iPad7,1, os-version: 10.0], [device: iPad4,5, os-version: 9.0], [device: iPad4,3, os-version: 9.0], [device: iPad6,12, os-version: 10.0], [device: iPad5,4, os-version: 9.0], [device: iPad6,11, os-version: 10.0], [device: iPad4,7, os-version: 9.0], [device: iPad4,1, os-version: 9.0], [device: iPad7,4, os-version: 10.0], and [device: iPad4,2, os-version: 9.0]
+App + On Demand Resources size: 55.2 MB compressed, 133.3 MB uncompressed
+App size: 55.2 MB compressed, 133.3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed
+
+
+Variant: Office Food.ipa
+Supported variant descriptors: Universal
+App + On Demand Resources size: 70.8 MB compressed, 174.7 MB uncompressed
+App size: 70.8 MB compressed, 174.7 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

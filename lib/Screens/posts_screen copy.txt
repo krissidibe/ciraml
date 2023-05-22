@@ -1,0 +1,185 @@
+import 'package:benkan_app/Models/PostModel.dart';
+import 'package:benkan_app/Screens/post_detail_screen.dart';
+import 'package:benkan_app/Services/http_service.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+
+class PostsScreen extends StatefulWidget {
+  const PostsScreen({Key? key}) : super(key: key);
+
+  @override
+  _PostsScreenState createState() => _PostsScreenState();
+}
+
+class _PostsScreenState extends State<PostsScreen> {
+  late Future<List<Post>> futureAllPost;
+  @override
+  void initState() {
+    super.initState();
+    HttpService.fetchAllPost();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: Text("Actu Benkan"),
+      ),
+      body: FutureBuilder(
+        future: HttpService.fetchAllPost(),
+        builder: (context, AsyncSnapshot<List<Post>> snapshot) {
+          if (snapshot.hasData) {
+            List<Post> datas = snapshot.data!;
+
+            return ListView(
+              children: datas.map((Post item) => BuildItem(item)).toList(),
+            );
+          }
+          return Center(
+              child: CircularProgressIndicator(
+            color: Color(0xFFe95022),
+          ));
+        },
+      ),
+    );
+  }
+
+  GestureDetector BuildItem(Post item) {
+    return GestureDetector(
+      onTap: () {
+        Get.to(PostDetailScreen(post: item,));
+      },
+      child: Padding(
+        padding: const EdgeInsets.all(10.0),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(20),
+          child: Card(
+              child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              SizedBox(
+                height: 250,
+                width: double.infinity,
+                child: Image.network(
+                  item.image,
+                  fit: BoxFit.cover,
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      item.titre,
+                      style:
+                          TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      item.updated_at,
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Text(
+                      item.contenu,
+                      overflow: TextOverflow.ellipsis,
+                      maxLines: 3,
+                      style: TextStyle(fontSize: 15),
+                    ),
+                   
+                   /*  SizedBox(
+                      width: 100,
+                      child: ElevatedButton(
+                        onPressed: () {},
+                        child: Text("Lire"),
+                        style: ElevatedButton.styleFrom(),
+                      ),
+                    ), */
+                  ],
+                ),
+              ),
+            ],
+          )),
+        ),
+      ),
+    );
+  }
+
+/*  ListView.builder(itemCount: futureAllPost,
+      itemBuilder: (context,index) => BuildCard(item:snapshot.data!),
+      ) */
+  BuildCard({image, titre, updated_at, contenu}) => Hero(
+    tag: "tag",
+    child: Padding(
+          padding: const EdgeInsets.all(10.0),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: Card(
+                child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  height: 250,
+                  child: Image.network(
+                    image,
+                    fit: BoxFit.cover,
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        titre,
+                        style:
+                            TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        updated_at,
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.w500,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      Text(
+                        contenu,
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 3,
+                        style: TextStyle(fontSize: 15),
+                      ),
+                      SizedBox(
+                        height: 5,
+                      ),
+                      SizedBox(
+                        width: 100,
+                        child: ElevatedButton(
+                          onPressed: () {},
+                          child: Text("Lire"),
+                          style: ElevatedButton.styleFrom(),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            )),
+          ),
+        ),
+  );
+}

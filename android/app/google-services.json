@@ -1,0 +1,39 @@
+{
+    "project_info": {
+        "project_number": "1083897646511",
+        "project_id": "benkan-74bd8",
+        "storage_bucket": "benkan-74bd8.appspot.com"
+    },
+    "client": [{
+        "client_info": {
+            "mobilesdk_app_id": "1:1083897646511:android:dc24c09f8079853cfa735a",
+            "android_client_info": {
+                "package_name": "com.benkan"
+            }
+        },
+        "oauth_client": [{
+            "client_id": "1083897646511-pv059tm801erq6ggdqcq66neien10foi.apps.googleusercontent.com",
+            "client_type": 3
+        }],
+        "api_key": [{
+            "current_key": "AIzaSyDuSkWH0jH2m2SyXxBw-wbz2ZTgPjmz8B0"
+        }],
+        "services": {
+            "appinvite_service": {
+                "other_platform_oauth_client": [{
+                        "client_id": "1083897646511-pv059tm801erq6ggdqcq66neien10foi.apps.googleusercontent.com",
+                        "client_type": 3
+                    },
+                    {
+                        "client_id": "1083897646511-lp7db1gmoh6c0ksuccme99qr2db0sv8d.apps.googleusercontent.com",
+                        "client_type": 2,
+                        "ios_info": {
+                            "bundle_id": "com.benkan.app"
+                        }
+                    }
+                ]
+            }
+        }
+    }],
+    "configuration_version": "1"
+}
